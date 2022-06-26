@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.journal-nav{
+    background:#F55A5A ;
+    min-height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.journal-nav-logo{
+    margin-right: 7px;
+}
+.journal-nav-title{
+    font: normal 500 14.46px 'Inter', sans-serif;
+    line-height: 18px;
+    letter-spacing: -0.075em;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+.card-container{
+    padding: 0px 40px 0px 40px;
+}
+.card-separator{
+    border: 1px solid #F5F5F5;
+    margin: 18px 0px;
+}
+.cards-styling{
+    display: flex;
+    border-radius: 5px;
+}
+.card-image{
+    margin-right: 19px;
+    width: 125px;
+    height: 168px;
+    border-radius: 5px;
+}
+section{
+    padding-top: 48px;
+    padding-bottom: 28px;
+}
+
+/* to hide the hr for the last card */
+.card-container:last-child hr{
+    display: none;
+}
+.card-location-marker{
+    display: inline-flex;
+    margin-right: 4px;
+    width: 7px;
+    height: 9.55px;
+}
+.card-location{
+    margin-right: 12px;
+    text-transform: uppercase;
+    font: normal 400 10.24px 'Inter',sans-serif;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+    color: #2B283A;
+}
+.card-maps{
+    font: normal 400 10.24px 'Inter',sans-serif;
+    line-height: 12px;
+    text-decoration-line: underline;
+    color: #918E9B;
+}
+.card-title{
+    display: block;
+    padding-top: 7px;
+    font: normal 700 25px 'Inter',sans-serif;
+    line-height: 30px;
+    color: #2B283A;
+}
+.card-dates{
+    display: block;
+    padding-top: 14px;
+    font: normal 700 10.24px 'Inter',sans-serif;
+    line-height: 12px;
+    color: #2B283A;
+}
+.card-description{
+    display: block;
+    padding-top: 9px;
+    font: normal 400 10.24px 'Inter',sans-serif;
+    line-height: 150%;
+    color: #2B283A;
+}
+.card-details{
+    padding-top: 19px;
+    padding-bottom: 20px;
+}
